@@ -1,0 +1,136 @@
+{
+  "source": "Road Lab directed network.json",
+  "jinghan": {
+    "arcs": 105,
+    "reverse_arc_absent": 83,
+    "reverse_arc_present": 22
+  },
+  "samples": [
+    {
+      "u": 86,
+      "v": 5802,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 91,
+      "v": 5735,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 2014,
+      "v": 2020,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 2015,
+      "v": 5928,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 2016,
+      "v": 5831,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 2017,
+      "v": 16103,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 2018,
+      "v": 17449,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 2019,
+      "v": 8145,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 2020,
+      "v": 6922,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 2222,
+      "v": 5732,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 3621,
+      "v": 10454,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 3623,
+      "v": 20988,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 4510,
+      "v": 27725,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 4892,
+      "v": 3623,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    },
+    {
+      "u": 4896,
+      "v": 3621,
+      "name": "京汉大道",
+      "oneway": "True",
+      "reverse_exists": false
+    }
+  ],
+  "caution": "Graph arcs are directed; explicit turn restrictions are not included. Presence of a reverse arc may represent a parallel physical road or legal opposite direction depending on geometry.",
+  "environment": {
+    "water": {
+      "total": 53,
+      "retained": 53,
+      "fixed": 0,
+      "dropped": 0
+    },
+    "green": {
+      "total": 315,
+      "retained": 315,
+      "fixed": 0,
+      "dropped": 0
+    },
+    "trees": {
+      "total": 699,
+      "retained": 699,
+      "fixed": 0,
+      "dropped": 0
+    }
+  }
+}

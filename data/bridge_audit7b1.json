@@ -1,0 +1,30 @@
+{
+  "source": "Road Lab V2 directed network.json",
+  "total_directed_edges": 89000,
+  "bridge_edges": 2609,
+  "tunnel_edges": 396,
+  "bridge_edges_near_study_area": 402,
+  "bridge_classes": {
+    "other": 830,
+    "trunk": 653,
+    "secondary": 224,
+    "motorway": 152,
+    "primary": 224,
+    "residential": 135,
+    "unclassified": 111,
+    "tertiary": 147,
+    "service": 131,
+    "living_street": 2
+  },
+  "background_roads": 2914,
+  "background_routes": 85,
+  "background_bridge_edges": 0,
+  "background_bridge_policy": "Explicitly excluded by scripts/build_road3a.py lines filtering bridge/tunnel=yes",
+  "navigation_note": "V7A graph is separate; this audit does not prove its bridge access or elevation.",
+  "limitations": [
+    "Bridge tag gives no surveyed deck height.",
+    "Layer tags and lane/turn restrictions are not fully retained in 3D background routes.",
+    "No bridge vehicle height in current road renderer.",
+    "7C will implement a separate validated 3D flyover pilot."
+  ]
+}

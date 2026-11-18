@@ -1,0 +1,28 @@
+{
+  "landmarks": [
+    {
+      "id": "wuhan-center",
+      "name_zh": "武汉中心大厦",
+      "name_en": "Wuhan Center",
+      "lon": 114.23967,
+      "lat": 30.59664,
+      "height_m": 438,
+      "height_source": "Wuhan Jianghan government and OSM",
+      "osm_id": "way/450740194",
+      "source_url": "https://mapcarta.com/W450740194",
+      "geometry": "stylized"
+    },
+    {
+      "id": "guishan-tower",
+      "name_zh": "龟山电视塔",
+      "name_en": "Guishan TV Tower",
+      "lon": 114.27508,
+      "lat": 30.55802,
+      "height_m": 221.2,
+      "height_source": "Wuhan municipal government; structure height excludes hill elevation",
+      "osm_id": "way/99463468",
+      "source_url": "https://mapcarta.com/W99463468",
+      "geometry": "stylized"
+    }
+  ]
+}

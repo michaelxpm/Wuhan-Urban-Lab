@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {desiredSpeed,nextCars,signalState,summarize} from '../traffic7b_core.mjs';
+assert.equal(signalState(0,0,70,42),'green');
+assert.equal(signalState(50,0,70,42),'red');
+assert.ok(desiredSpeed({speed:12,cruise:15,frontGap:9,frontSpeed:0})<8);
+assert.ok(desiredSpeed({speed:12,cruise:15,frontGap:Infinity})===15);
+assert.ok(desiredSpeed({speed:10,cruise:15,red:true,signalDistance:2})===0);
+const route={id:123},v1={route,s:0,speed:4,respawn:0},v2={route,s:20,speed:5,respawn:0},v3={route,s:45,speed:6,respawn:0};
+const n=nextCars([v3,v1,v2]);assert.equal(n.get(v1),v2);assert.equal(n.get(v2),v3);assert.equal(n.get(v3),undefined);
+const m=summarize([v1,v2,v3]);assert.equal(m.active,3);assert.equal(m.stopped,0);
+console.log('PASS: V7B deterministic traffic core, signals, following, metrics');
